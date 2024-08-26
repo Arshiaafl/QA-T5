@@ -1,6 +1,6 @@
 ### `README.md`
 
-```markdown
+
 # QA-T5: Question Answering with T5
 
 This repository contains code and resources for fine-tuning a T5 model for the task of question rewriting on the Disfluent QA dataset.
