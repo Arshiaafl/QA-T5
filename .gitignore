@@ -1,0 +1,21 @@
+# Ignore the virtual environment directory
+qa/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore all log files and directories
+logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
