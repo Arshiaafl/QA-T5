@@ -140,7 +140,13 @@ trainer = Seq2SeqTrainer(
 
 trainer.train()
 ```
+### Loading the Model
 
+Alternatively, you can also load the fine-tuned model using this code:
+```python
+from transformers import pipeline
+summarizer = pipeline("summarization", model="my_fine_tuned_t5_small_model", min_length=5, max_length=42, num_beams=5, length_penalty=0.4)
+```
 ### Results
 
 After training, the model's performance can be evaluated using the ROUGE score or any other relevant metric. The results will be stored in the specified output directory.
